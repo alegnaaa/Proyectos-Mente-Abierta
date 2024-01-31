@@ -1,0 +1,75 @@
+@font-face {
+    font-family: spiderFont;
+    src: url(texto/Relington.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+.slider{
+    height: 5rem;
+    font-size: 50px;
+    background-color: rgb(0, 0, 0);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: spiderFont;
+}
+
+.slider a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.slider2{
+    height: 20rem;
+    background-color: rgb(245, 188, 138);
+    background-image: url(images/logoCamello.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: creatoFont;
+    font-size: 50px;
+
+}
+.caja2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(images/alcamelloPage.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+
+}
+
+.slider3 {
+    height: 15rem;
+    font-size: 20px;
+    background-color: rgb(143, 177, 240);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: creatoFont;
+}

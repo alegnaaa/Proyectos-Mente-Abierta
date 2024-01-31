@@ -1,0 +1,76 @@
+@font-face {
+    font-family: spiderFont;
+    src: url(texto/Relington.ttf) format('truetype'); 
+    
+    font-family: creatoFont;
+    src: url(texto/CreatoDisplay-Regular.ttf) format(truetype);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+.slider{
+    height: 5rem;
+    font-size: 50px;
+    background-color: rgb(206, 206, 206);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: spiderFont;
+}
+
+.slider a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.slider2{
+    height: 20rem;
+    background-color: rgb(255, 255, 255);
+    background-image: url(images/aluskyLogo.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja1{
+    background-color: rgb(255, 208, 243);
+    background-image: url(images/aluskyPage.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    height: 60rem;
+}
+.caja2{
+    background-color: rgb(255, 208, 243);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: creatoFont;
+    font-size: 45px;
+    text-align: center;
+}
+
+.slider3 {
+    height: 15rem;
+    font-size: 20px;
+    background-color: rgb(143, 177, 240);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: creatoFont;
+}

@@ -1,0 +1,167 @@
+@font-face {
+    font-family: spiderFont;
+    src: url(texto/Relington.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.slider{
+    height: 6rem;
+    font-size: 30px;
+    background-color: rgb(8, 8, 8);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: spiderFont;
+}
+
+.slider a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.boton1 {
+    background-color: rgb(133, 188, 255);
+    font-family: spiderFont;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 20%; 
+    margin: 0 auto; 
+    height: 5rem;
+}
+.boton1 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.boton1:hover{
+    background-color: rgb(68, 58, 255);
+}
+
+.boton2 {
+    background-color: rgb(133, 188, 255);
+    font-family: spiderFont;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    width: 20%; 
+    margin: 0 auto; 
+    height: 5rem;
+}
+.boton2 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.boton2:hover{
+    background-color: rgb(68, 58, 255);
+
+}
+.boton3 {
+    background-color: rgb(133, 188, 255);
+    font-family: spiderFont;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    width: 20%; 
+    margin: 0 auto; 
+    height: 5rem;
+}
+.boton3 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.boton3:hover{
+    background-color: rgb(68, 58, 255);
+
+}
+
+.boton4 {
+    background-color: rgb(133, 188, 255);
+    font-family: spiderFont;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    width: 20%; 
+    margin: 0 auto; 
+    height: 5rem;
+}
+.boton4 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.boton4:hover{
+    background-color: rgb(68, 58, 255);
+
+}
+.boton5{
+    background-color: rgb(133, 188, 255);
+    font-family: spiderFont;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    width: 20%; 
+    margin: 0 auto; 
+    height: 5rem;
+}
+.boton5 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.boton5:hover{
+    background-color: rgb(68, 58, 255);
+
+}
+
+.slider2{
+    height: 13rem;
+    font-size: 80px;
+    background-color:#c0c8ff;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: spiderFont;
+    color: rgb(91, 17, 170);
+}
+
+.caja1{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(images/senaLogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
+}
+.caja2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: creatoFont;
+    font-size: 50px;
+}
+.slider3 {
+    height: 15rem;
+    font-size: 20px;
+    background-color: rgb(143, 177, 240);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: creatoFont;
+}
